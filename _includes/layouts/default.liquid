@@ -5,7 +5,7 @@ layout: layouts/base
     {% include 'navigation/primary' %}
     <h1>{{ site.name }}</h1>
 </header>
-<main-body>
+<main-container>
     {%- if tags contains 'secondary' %}
     <aside>
         {% include 'navigation/secondary' %}
@@ -17,7 +17,7 @@ layout: layouts/base
         {%- if description %}<p>{{ description }}</p>{% endif %}
         {{ content }}
     </main>
-</main-body>
+</main-container>
 <footer>
     {%- include 'navigation/footer' %}
     {%- include 'copyright' %}

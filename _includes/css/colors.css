@@ -7,13 +7,13 @@ header {
     color: var(--grey100);
 }
 
-main-body,
+main-container,
 footer {
     background-color: var(--grey200)
 }
 
 footer {
-    border-top: 1px solid var(--secondary-color)
+    border-top: 1px solid var(--primary-color)
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,8 +22,8 @@ footer {
         color: var(--grey100);
     }
 
-    main,
+    main-container,
     footer {
-        background-color: var(--grey700)
+        background-color: var(--grey800)
     }
 }

@@ -1,6 +1,6 @@
 {
   "name": "10-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic website builts with Eleventy & LiquidJS",
   "main": "eleventy.config.js",
   "scripts": {
