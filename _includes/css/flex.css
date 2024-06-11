@@ -10,14 +10,14 @@ body-container {
     flex-direction: column;
 }
 
-main-body {
+main-container {
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
-main-body aside {
+main-container aside {
     flex-grow: 1;
 }
 

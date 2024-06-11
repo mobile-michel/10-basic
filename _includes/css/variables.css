@@ -15,6 +15,7 @@
     --secondary-color: hsl(var(--secondary-hue), var(--saturation), var(--secondary-lightness));
     --max-width: {{ tokens.max-width }};
     --spacing: {{ tokens.spacing }};
+    --photo1: url({{ images.photo2 }});
     --grey100: #f8f9fa;
     --grey200: #e9ecef;
     --grey300: #dee2e6;
