@@ -3,19 +3,19 @@
 /*************/
 
 :root {
-    --size: {{ tokens.size }};
+    --size: 16px;
     --text-font-size: {{ tokens.text-font-size }};
-    --hue: {{ tokens.hue }};
-    --saturation: {{ tokens.saturation }};
-    --lightness: {{ tokens.lightness }};
+    --hue: 120;
+    --saturation: 50%;
+    --lightness: 50%;
     --primary-color: hsl(var(--hue), var(--saturation),var(--lightness));
-    --color-scheme: {{ tokens.color-scheme }};
+    --color-scheme: 30;
     --secondary-hue: calc(var(--hue) + var(--color-scheme));
     --secondary-lightness: calc(var(--lightness) + 20%);
     --secondary-color: hsl(var(--secondary-hue), var(--saturation), var(--secondary-lightness));
-    --max-width: {{ tokens.max-width }};
-    --spacing: {{ tokens.spacing }};
-    --photo1: url({{ images.photo2 }});
+    --max-width: 60rem;
+    --spacing: 1rem;
+    --photo1: url("https://plus.unsplash.com/premium_photo-1675362696692-636305144028?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     --grey100: #f8f9fa;
     --grey200: #e9ecef;
     --grey300: #dee2e6;
