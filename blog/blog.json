@@ -1,5 +1,4 @@
 {
-    "layout": "layouts/default",
     "tags": ["secondary", "blog", "dropdown"],
     "navigation": "blog",
     "permalink": "blog/{{ title | slugify }}/index.html"

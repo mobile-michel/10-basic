@@ -1,33 +1,26 @@
 /************/
-/* layout.css */
+/* flex.css */
 /************/
 
 body-container {
     max-width: var(--max-width);
+    height: 100vh;
     margin: 0 auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-header, footer {
-    padding: var(--spacing);
-    background-color: var(--neutral-300);
-}
-
-header {
-    height: 50vh;
-}
-
 main-container {
     flex-grow: 1;
-    max-width: var(--main-width);
-    margin: 0 auto;
-    padding: var(--spacing);
-    background-color: var(--neutral-200);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
-body-container > footer {
-    max-width: var(--main-width);
-    margin: 0 auto;
+main-container aside {
+    flex-grow: 1;
+}
+
+main {
+    flex: 3 1 21em;
 }

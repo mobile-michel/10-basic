@@ -5,6 +5,7 @@ link-name: Readme
 date: 2024-01-02
 layout: layouts/default
 tags: [primary, footer]
+css2: /assets/css/menu.css
 ---
 # Basic website built with Eleventy, LiquidJS & classless CSS
 
